@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="Jian Jin Consulting - Independent business consulting services." />
+  <meta name="description" content="Jian Jin Consulting - Independent online business consulting for entrepreneurs and small businesses." />
   <title>Jian Jin Consulting</title>
   <style>
     body {
@@ -18,9 +18,7 @@
       margin: auto;
       padding: 40px 20px;
     }
-    h1 {
-      margin-bottom: 10px;
-    }
+    h1 { margin-bottom: 10px; }
     h2 {
       margin-top: 40px;
       border-bottom: 1px solid #334155;
@@ -32,6 +30,14 @@
       border-radius: 8px;
       margin-top: 15px;
     }
+    .price {
+      font-size: 20px;
+      font-weight: bold;
+      color: #f8fafc;
+    }
+    ul { margin: 8px 0 0 0; padding-left: 20px; }
+    a { color: #93c5fd; }
+    nav a { margin-right: 16px; font-size: 14px; }
     footer {
       margin-top: 60px;
       font-size: 12px;
@@ -44,32 +50,80 @@
 <body>
   <div class="container">
     <h1>Jian Jin Consulting</h1>
-    <p><strong>Sole Proprietorship · Independent Business Consulting</strong></p>
+    <p><strong>Sole Proprietorship · Independent Online Business Consulting</strong></p>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#booking">Booking &amp; Payment</a>
+      <a href="#refunds">Cancellation &amp; Refunds</a>
+      <a href="#contact">Contact</a>
+    </nav>
 
     <h2>About</h2>
     <div class="card">
       Jian Jin Consulting is a sole proprietorship operated by Jian Jin, providing independent business consulting and advisory services to entrepreneurs and small businesses.
     </div>
 
-    <h2>Services</h2>
+    <h2 id="services">Services</h2>
     <div class="card">Business Strategy Consulting</div>
-    <div class="card">Market Research & Analysis</div>
+    <div class="card">Market Research &amp; Analysis</div>
     <div class="card">Digital Marketing Advisory</div>
     <div class="card">Operational Support for Small Businesses</div>
 
     <h2>How We Work</h2>
     <div class="card">
-      Services are delivered remotely on a project or hourly basis. Revenue is generated solely from consulting service fees. No financial services, investment activities, cryptocurrency trading, or regulated services are provided.
+      All consultations are delivered online via video call. Services are offered on an hourly or project basis. Revenue is generated solely from consulting service fees. No financial services, investment activities, cryptocurrency trading, or regulated services are provided.
     </div>
 
-    <h2>Contact</h2>
+    <h2 id="pricing">Pricing</h2>
     <div class="card">
-      Email: djcndn8695@gmail.com<br>
-      Location: China
+      <div class="price">Consultation session (60 minutes): €80</div>
+      Online video call, including a short written summary of key recommendations after the session.
+    </div>
+    <div class="card">
+      <div class="price">Project-based consulting: from €400</div>
+      For larger engagements (e.g. a market research report or a strategy plan), a fixed price is agreed in writing before work begins.
+    </div>
+    <div class="card">
+      All prices are in euros (EUR) and are final prices.
+    </div>
+
+    <h2 id="booking">Booking &amp; Payment</h2>
+    <div class="card">
+      <ul>
+        <li>Send a booking request by email with your preferred dates and a short description of your topic.</li>
+        <li>You will receive a confirmation and a secure payment link.</li>
+        <li>Payment is made in advance by credit or debit card through Stripe. Card details are processed by Stripe and are never stored by us.</li>
+        <li>After payment, you receive the video call link for your session.</li>
+      </ul>
+    </div>
+
+    <h2 id="refunds">Cancellation &amp; Refunds</h2>
+    <div class="card">
+      <ul>
+        <li>Cancellations made at least 24 hours before the scheduled session receive a full refund.</li>
+        <li>Cancellations made less than 24 hours before the session, or missed sessions, are not refundable. One free rescheduling is offered instead.</li>
+        <li>If a session cannot take place for reasons on our side, you receive a full refund or a new appointment, at your choice.</li>
+        <li>For project-based work, refunds for work not yet delivered are handled as agreed in the written project offer.</li>
+        <li>Refunds are issued to the original payment method within 5–10 business days.</li>
+      </ul>
+    </div>
+
+    <h2 id="contact">Contact</h2>
+    <div class="card">
+      Jian Jin Consulting<br>
+      Owner: Jian Jin<br>
+      Email: <a href="mailto:djcndn8695@gmail.com">djcndn8695@gmail.com</a><br>
+      We respond to all enquiries within 2 business days.
+    </div>
+
+    <h2>Privacy</h2>
+    <div class="card">
+      Personal data you send us (name, email, booking details) is used only to arrange and deliver your consultation and is not shared with third parties, except Stripe for payment processing.
     </div>
 
     <footer>
-      © 2026 Jian Jin Consulting
+      © 2026 Jian Jin Consulting · Sole Proprietorship
     </footer>
   </div>
 </body>
